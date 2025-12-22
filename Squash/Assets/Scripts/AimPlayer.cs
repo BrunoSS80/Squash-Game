@@ -15,10 +15,7 @@ public class AimPlayer : MonoBehaviour
         RaycastHit hit;
         if(Physics.Raycast(ray, out hit, 100f, layerMask))
         {
-            Debug.DrawLine(ray.origin, hit.point);
-            Debug.Log(hit.point);
             ballController.Hit(hit.point);
-            
         }
     }
 }
