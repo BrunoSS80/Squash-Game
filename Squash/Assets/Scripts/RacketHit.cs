@@ -1,31 +1,53 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class RacketHit : MonoBehaviour
 {
-    private InputAction attack;
     public float hittingTime, hit;
     private Animator animatorRacket;
+    public bool canHit;
+    public BallController ball;
     void Start()
     {
-        attack = InputSystem.actions.FindAction("Attack");
         animatorRacket = GetComponent<Animator>();
     }
 
     
     void Update()
     {
+        hit -= Time.deltaTime;
+
         if (Input.GetMouseButtonDown(0))
         {
-            hitted();
-            Debug.Log("Click");
-            animatorRacket.SetTrigger("Hit");
+            if (canHit && ball != null)
+            {
+                canHit = false;
+                hitted();
+                animatorRacket.SetTrigger("Hit");
+                ball.BallAttacked();
+                ball = null;
+            }
         }
-        hit -= Time.deltaTime;
+
+        if(hit <= 0){
+            canHit = true;
+        }
     }
 
     public void hitted()
     {
         hit = hittingTime;
+    }
+
+    void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Ball"))
+        {
+            ball = other.GetComponent<BallController>();
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        ball = null;
     }
 }
