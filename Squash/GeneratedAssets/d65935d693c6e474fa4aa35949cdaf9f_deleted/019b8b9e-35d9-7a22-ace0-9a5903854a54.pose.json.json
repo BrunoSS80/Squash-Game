@@ -1,0 +1,11 @@
+{
+    "asset": "d65935d693c6e474fa4aa35949cdaf9f",
+    "fileName": "019b8b9e-35d9-7a22-ace0-9a5903854a54.pose.json",
+    "prompt": "Create a animation of a person holding a racket and hitting a ball, that ball is comming from right",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 752279015,
+    "w3CTraceId": "78043789bfa1948d0acedebb850b617f",
+    "isTrimmed": false
+}
