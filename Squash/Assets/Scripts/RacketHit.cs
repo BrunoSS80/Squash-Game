@@ -6,6 +6,7 @@ public class RacketHit : MonoBehaviour
     private Animator animatorRacket;
     public bool canHit;
     public BallController ball;
+    public GameObject followHand;
     void Start()
     {
         animatorRacket = GetComponent<Animator>();
@@ -15,7 +16,7 @@ public class RacketHit : MonoBehaviour
     void Update()
     {
         hit -= Time.deltaTime;
-
+        transform.rotation = followHand.transform.rotation;
         if (Input.GetMouseButtonDown(0))
         {
             if (canHit && ball != null)

@@ -1,0 +1,11 @@
+{
+    "asset": "6d4d20812a394364b968b580def4d77e",
+    "fileName": "019baa9e-2667-7266-865a-ba5a0d8e6296.pose.json",
+    "prompt": "player half crouched, with his hands on front of body wholding something, with head up",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 309261394,
+    "w3CTraceId": "f01277a77934d6ffc5e4cda301ed39e0",
+    "isTrimmed": false
+}

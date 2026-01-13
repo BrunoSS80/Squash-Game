@@ -1,0 +1,11 @@
+{
+    "asset": "6d4d20812a394364b968b580def4d77e",
+    "fileName": "019baa9b-5890-7f8a-bb86-3e62a4249cf7.pose.json",
+    "prompt": "player crounched",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 578626853,
+    "w3CTraceId": "e4ecca46e3b2c8341195581e25919b47",
+    "isTrimmed": false
+}

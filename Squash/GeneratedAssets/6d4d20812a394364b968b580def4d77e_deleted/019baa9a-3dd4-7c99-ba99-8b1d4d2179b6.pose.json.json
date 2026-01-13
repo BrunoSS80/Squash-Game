@@ -1,0 +1,11 @@
+{
+    "asset": "6d4d20812a394364b968b580def4d77e",
+    "fileName": "019baa9a-3dd4-7c99-ba99-8b1d4d2179b6.pose.json",
+    "prompt": "I want the player half crounched, like waiting a ball in a game of tennis ",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 1597106459,
+    "w3CTraceId": "22ca7c6e94707e773b1e43d6cae81185",
+    "isTrimmed": false
+}

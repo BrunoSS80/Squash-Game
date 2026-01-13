@@ -1,0 +1,11 @@
+{
+    "asset": "6d4d20812a394364b968b580def4d77e",
+    "fileName": "019baa9d-2bc7-7295-91a7-5b94c1b92c9a.pose.json",
+    "prompt": "player half crouched, stopped and waiting something in your frontm dont walking",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 1835272637,
+    "w3CTraceId": "7f217f4efd3589e086c359f91789c170",
+    "isTrimmed": false
+}

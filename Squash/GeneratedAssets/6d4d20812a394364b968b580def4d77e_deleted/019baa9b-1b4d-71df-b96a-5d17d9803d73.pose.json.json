@@ -1,0 +1,11 @@
+{
+    "asset": "6d4d20812a394364b968b580def4d77e",
+    "fileName": "019baa9b-1b4d-71df-b96a-5d17d9803d73.pose.json",
+    "prompt": "player half crounched",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 831124757,
+    "w3CTraceId": "948966b867b0d11b28da5640053b3c65",
+    "isTrimmed": false
+}

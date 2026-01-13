@@ -1,0 +1,11 @@
+{
+    "asset": "defe8af279e2f2747aa97746e5456029",
+    "fileName": "019b9b35-9c53-7a00-930b-7a0934ab79f5.pose.json",
+    "prompt": "Create a animation were player will hit something with his right arm, he is holding a racket on his hand. he hits with only one hand comming from his side to front\n",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 1674013413,
+    "w3CTraceId": "1e6e8397a1f138994fc171c57ea318c5",
+    "isTrimmed": false
+}

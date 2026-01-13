@@ -1,0 +1,11 @@
+{
+    "asset": "16108173bfa909549ae79f7d68cfa9d1",
+    "fileName": "019ba029-b2e1-78b4-9ae4-1729dcca6380.pose.json",
+    "prompt": "from Idle animation from player, create a animation to player where he is walking forward in the same position of body only moving his legs",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 890407410,
+    "w3CTraceId": "1d9acb17371fc8147189a12b5dce2eb5",
+    "isTrimmed": false
+}

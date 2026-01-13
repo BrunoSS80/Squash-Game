@@ -1,0 +1,11 @@
+{
+    "asset": "defe8af279e2f2747aa97746e5456029",
+    "fileName": "019b9b34-d130-7dd6-89fb-84a450d18b00.pose.json",
+    "prompt": "Create a animation were player will hit something with his right arm, he is holding a racket on his hand",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 171581763,
+    "w3CTraceId": "4619eaa461171d14896155fd08cdd2ac",
+    "isTrimmed": false
+}

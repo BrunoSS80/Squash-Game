@@ -1,0 +1,11 @@
+{
+    "asset": "defe8af279e2f2747aa97746e5456029",
+    "fileName": "019b9b3a-de33-7912-a1c1-4fb38a7a1bbe.pose.json",
+    "prompt": "player is playing squash, so he are prepared to hit a ball that is coming from his right, make a animation of player hittind a ball with his right arm with only one hand, he left arm its used like a aim",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 245783628,
+    "w3CTraceId": "02419ee8fd2f2eab23237a40a42d8243",
+    "isTrimmed": false
+}

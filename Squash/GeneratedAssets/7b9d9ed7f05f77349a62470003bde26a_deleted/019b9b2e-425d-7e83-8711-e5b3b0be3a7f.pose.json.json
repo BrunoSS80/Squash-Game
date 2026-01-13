@@ -1,0 +1,11 @@
+{
+    "asset": "7b9d9ed7f05f77349a62470003bde26a",
+    "fileName": "019b9b2e-425d-7e83-8711-e5b3b0be3a7f.pose.json",
+    "prompt": "crie uma animação do player saindo da posição de agachado como se estivesse pronto para acertar uma bola, nessa animação o player vai mover o braço direito dele para acertar uma bola que vem pela direita na altura de seu peito",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 658991243,
+    "w3CTraceId": "7fca51805135b290e10c2b5ac88c0206",
+    "isTrimmed": false
+}

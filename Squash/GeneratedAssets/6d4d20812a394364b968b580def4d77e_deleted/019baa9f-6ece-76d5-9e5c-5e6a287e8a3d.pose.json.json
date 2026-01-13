@@ -1,0 +1,11 @@
+{
+    "asset": "6d4d20812a394364b968b580def4d77e",
+    "fileName": "019baa9f-6ece-76d5-9e5c-5e6a287e8a3d.pose.json",
+    "prompt": "player half crouched, with his hands on front of body wholding something, he are playing tennis, so he is waiting something stopped",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 515719653,
+    "w3CTraceId": "039a1cdd71a4ca67fac49a56e72de4da",
+    "isTrimmed": false
+}

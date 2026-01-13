@@ -1,0 +1,11 @@
+{
+    "asset": "916f6fb2b65f67a4daa7e32c0ed6f3eb",
+    "fileName": "019ba02d-22ea-77b0-a71f-d7d719ccf1c4.pose.json",
+    "prompt": "Create a new animation of a player walking forward based on an idle animation. he are a little crounched and with his hands in the from of your body, like holding something.",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 132374612,
+    "w3CTraceId": "31d2b6ba944f9ee338184a9443d9d10d",
+    "isTrimmed": false
+}
