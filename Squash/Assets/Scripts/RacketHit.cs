@@ -3,27 +3,23 @@ using UnityEngine;
 public class RacketHit : MonoBehaviour
 {
     public float hittingTime, hit;
-    private Animator animatorRacket;
     public bool canHit;
     public BallController ball;
-    public GameObject followHand;
     void Start()
     {
-        animatorRacket = GetComponent<Animator>();
+
     }
 
     
     void Update()
     {
         hit -= Time.deltaTime;
-        transform.rotation = followHand.transform.rotation;
         if (Input.GetMouseButtonDown(0))
         {
             if (canHit && ball != null)
             {
                 canHit = false;
                 hitted();
-                animatorRacket.SetTrigger("Hit");
                 ball.BallAttacked();
                 ball = null;
             }
