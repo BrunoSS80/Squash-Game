@@ -2,8 +2,13 @@ using UnityEngine;
 
 public class HitController : MonoBehaviour
 {
-    public Vector3 balPositon;
-    public HitController hitController;
+    public static HitController hitController;
+    public GameObject ballPositon;
+    public bool hitted;
+    public bool moveHit;
+    private BallController ballController;
+    private PlayerController playerController; 
+
     void Awake()
     {
         if(hitController == null)
@@ -13,12 +18,23 @@ public class HitController : MonoBehaviour
     }
     void Start()
     {
-        
+        ballController = GameManager.gameManager.ballController;
+        playerController = GameManager.gameManager.playerController;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if(hitted == true)
+        {
+            ballController.BallAttacked();
+            hitted = false;
+            playerController.animator.SetBool("Hit", false);
+            playerController.playLerp = false;
+        }
+        if(moveHit == true && ballPositon != null)
+        {
+            playerController.playLerp = true;
+            moveHit = false;
+        }
     }
 }

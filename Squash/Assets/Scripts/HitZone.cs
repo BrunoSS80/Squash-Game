@@ -1,51 +1,53 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class HitZone : MonoBehaviour
 {
-    public float cooldown, timeCooldown;
-    public bool canHit;
-    public Rigidbody ball;
+    public GameObject ball;
 
-    private Vector3 startPositionBall;
-    private Vector3 startForceBall;
-    public float timeBetweenPoints;
-    public int pontosCalculo;
-    public List<Vector3> positionsBall;
-    public Vector3 closePosition;
-
-    void Start()
-    {
-        
-    }
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        
+        /*
+        Vector3 direciton = (targetPosition.transform.position - player.transform.position);
+        Vector3 direcitonToGo = new Vector3(direciton.x, 0, direciton.z -1).normalized;
+        
+        characterController.Move(direcitonToGo * speed * Time.deltaTime);
+        
+        distance = direciton.magnitude;
+        if(stopDistance >= distance)
         {
-            if (canHit == true && ball != null)
-            {
-                canHit = false;
-                cooldown = timeCooldown;
-                
-                ball = null;
-            }
-        }
-        if(cooldown > 0)
-        {
-            cooldown -= Time.deltaTime;
-        }
-        if(cooldown <= 0){
-            canHit = true;
-        }
+            BallController ballhit = targetPosition.GetComponent<BallController>();
+            ballhit.BallAttacked();
+        }*/
+
     }
     
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Ball"))
         {
-            ball = other.GetComponent<Rigidbody>();
-            startPositionBall = other.bounds.center;
+            ball = other.GetComponent<GameObject>();
+            HitController.hitController.ballPositon = other.gameObject;
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        ball = null;
+        HitController.hitController.ballPositon = null;
+    }
+
+
+
+
+
+
+
+            //targetPosition = other.transform.position;
+            //startPosition = player.transform.position;
+            //lerp = true;
+           /* startPositionBall = other.bounds.center;
             startForceBall = ball.linearVelocity;
 
             for(int i = 0; i <= pontosCalculo; i++)
@@ -60,12 +62,5 @@ public class HitZone : MonoBehaviour
                 {
                     closePosition = posFuture;
                 }
-            }
-        }
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-        ball = null;
-    }
+            }*/
 }
